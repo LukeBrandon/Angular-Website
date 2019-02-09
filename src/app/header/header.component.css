@@ -1,0 +1,51 @@
+/* General Selectors */
+h1 {
+    text-align: center;
+    color: black;
+}
+
+ul#taskbar li {
+    display:inLine;
+}
+
+
+/* Classes */
+.taskbarElement {
+    padding:1%;
+    margin: 0px;
+    color: black;
+}
+.taskbarElement:hover{
+    background-color: lightslategrey;
+    text-decoration: underline;
+}
+
+.taskbarLink {
+    /* display: block; */
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+}
+.taskbarLink:hover {
+    text-decoration: none;
+}
+
+
+
+
+/* ID's */
+#headerContainer{
+    background-color: slategray;
+    padding-top: 1%;
+    padding-bottom: .1%;
+}
+
+#linkHeader {
+    color: black;
+    text-decoration: none;
+}
+
+#profilePicture {
+    width: 5%;
+    height: 5%;
+}
