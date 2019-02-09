@@ -6,7 +6,6 @@
 
   <img id="profilePicture" src="../resources/profilePicture.png" alt="Profile Picture">
 
-
   <ul id = "taskbar">
     <li *ngFor="let tab of tabs; let i = index" class = "taskbarElement">
         <a class="taskbarLink" routerLink={{routes[i]}}>{{ tab }}</a>
