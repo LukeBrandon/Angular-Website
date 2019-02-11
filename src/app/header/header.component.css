@@ -10,29 +10,21 @@ ul#taskbar li {
 
 
 /* Classes */
-.taskbarElement {
-    padding:1%;
-    margin: 0px;
-    color: black;
-}
-.taskbarElement:hover{
-    background-color: lightslategrey;
-    text-decoration: underline;
-}
-
 .taskbarLink {
-    /* display: block; */
     padding: 1%;
     text-decoration: none;
     color: black;
+    margin:0%;
 }
 .taskbarLink:hover {
     text-decoration: none;
+    background-color: lightslategray;
 }
 
 
 
-
+/* The anchor tag for routing does not fill the entire rectangle its in */
+/* The anchor tage has an underline when you hover over it -- not good */
 /* ID's */
 #headerContainer{
     background-color: slategray;
@@ -46,6 +38,9 @@ ul#taskbar li {
 
 #linkHeader {
     color: black;
+    text-decoration: none;
+}
+#linkHeader:hover {
     text-decoration: none;
 }
 
