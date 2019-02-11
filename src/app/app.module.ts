@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { EducationPageComponent } from './education-page/education-page.component';
+import { ProjectsPageComponent } from './projects-page/projects-page.component';
+import { ResumePageComponent } from './resume-page/resume-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ContactPageComponent,
-    HomePageComponent
+    HomePageComponent,
+    EducationPageComponent,
+    ProjectsPageComponent,
+    ResumePageComponent
   ],
   imports: [
     BrowserModule,
