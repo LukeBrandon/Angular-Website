@@ -3,14 +3,13 @@
 <div id="headerContainer">
 
   <img id="profilePicture" src="../../assets/profilePicture.png" alt="Profile Picture">
-  <span id = "nameHeader">
-      <h1><a id="linkHeader"routerLink="/home">{{name}}</a></h1>
-  </span>
+  
+  <h1><a id="linkHeader"routerLink="/home">{{name}}</a></h1>
 
 
-  <ul id = "taskbar">
-    <li *ngFor="let tab of tabs; let i = index" class = "taskbarElement">
-        <a class="taskbarLink" routerLink={{routes[i]}}>{{ tab }}</a>
+  <ul id = "navbar">
+    <li *ngFor="let tab of tabs; let i = index" class = "navbarElement">
+        <a class="navbarLink" routerLink={{routes[i]}}>{{ tab }}</a>
     </li>
   </ul> 
 

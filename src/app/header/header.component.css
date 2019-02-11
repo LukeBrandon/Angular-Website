@@ -1,44 +1,38 @@
-/* General Selectors */
+/* -----General Selectors --------------------------------------------*/
 h1 {
     text-align: center;
     color: black;
 }
 
-ul#taskbar li {
-    display:inLine;
-}
 
-
-/* Classes */
-.taskbarLink {
+/* --------Classes----------------------------------------------------*/
+.navbarLink {
     padding: 1%;
     text-decoration: none;
     color: black;
     margin:0%;
 }
-.taskbarLink:hover {
+.navbarLink:hover {
     text-decoration: none;
     background-color: lightslategray;
 }
 
+.navbarElement {
+    display:inLine;
+}
 
 
-/* The anchor tag for routing does not fill the entire rectangle its in */
-/* The anchor tage has an underline when you hover over it -- not good */
-/* ID's */
+/* ----ID's-----------------------------------------------------------*/
 #headerContainer{
     background-color: slategray;
     padding-top: 1%;
     padding-bottom: .1%;
 }
 
-#nameHeader {
-    text-align: center;
-}
-
 #linkHeader {
     color: black;
     text-decoration: none;
+    text-align: center;
 }
 #linkHeader:hover {
     text-decoration: none;
