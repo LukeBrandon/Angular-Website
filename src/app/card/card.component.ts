@@ -10,6 +10,7 @@ export class CardComponent implements OnInit {
   // the cards service on both the title and the
   @Input() title: string;
   description = 'test description';
+  imageUrl = '../../assets/projectImages/test.png';
   // description should be gotten from the service based on name or some ID
 
   constructor() {
