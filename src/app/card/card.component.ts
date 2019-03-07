@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
-  public cardTitles: string[];  // put card titles in a service
+  // create a cards service that pulls all of the data that goes on the cards from
+  // the cards service on both the title and the
+  @Input() title: string;
+  description = 'test description';
+  // description should be gotten from the service based on name or some ID
 
   constructor() {
-    this.cardTitles = ['title1', 'title2', 'title3'];
   }
 
   ngOnInit() {

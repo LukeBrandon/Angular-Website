@@ -1,7 +1,18 @@
+/* Make this dynamically allocated so that the user can decide how many 
+they want on a line and then it automatically does the calculations???/ */
 .card{
     box-shadow: 2px 2px 8px black;
-    width: 10%;
+    width: 27%;
     height: 10%;
     margin: 3%;
+    float: left;
+    text-align: center;
+}
+
+.cardContent {
+    
+}
+
+.cardDescription {
     
 }
