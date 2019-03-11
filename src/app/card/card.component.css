@@ -7,6 +7,8 @@ they want on a line and then it automatically does the calculations???/ */
     margin: 3%;
     float: left;
     text-align: center;
+    background-color: slategray;
+
 }
 
 .cardContent {
