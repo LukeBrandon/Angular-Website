@@ -11,9 +11,9 @@ export class HeaderComponent implements OnInit {
   public routes: string[];
 
   constructor() {
-    this.tabs = ['Home', 'Education', 'Projects', 'About', 'Contact', 'Resume'];
-    this.routes = ['/', '/education', '/projects', '/about', '/contact', '/resume'];
-   }
+    this.tabs = ['Home', 'Education / Experience', 'Projects', 'About', 'Contact', 'Resume'];
+    this.routes = ['/', '/educationAndExperience', '/projects', '/about', '/contact', '/resume'];
+  }
 
   ngOnInit() {
   }

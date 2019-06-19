@@ -11,11 +11,11 @@ import { AboutPageComponent } from './about-page/about-page.component';
 const routes: Routes = [
   { path: 'contact', component: ContactPageComponent },
   { path: 'home', component: HomePageComponent },
-  { path: 'education', component: EducationPageComponent },
+  { path: 'educationAndExperience', component: EducationPageComponent },
   { path: 'projects', component: ProjectsPageComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'resume', component: ResumePageComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full'}
+  { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
 @NgModule({
@@ -23,4 +23,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 
-export class AppRoutingModule {  }
+export class AppRoutingModule { }
